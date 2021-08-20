@@ -1,0 +1,213 @@
+<something>
+    <importador-exportador>
+        <rfc>AAL0409235E6</rfc>
+    </importador-exportador>
+    <datosManifestacionValor>
+        <personaConsulta>
+            <rfc>AAL970927390</rfc>
+        </personaConsulta>
+        <personaConsulta>
+            <rfc>AFC000526BJ2</rfc>
+        </personaConsulta>
+        <personaConsulta>
+            <rfc>ASA060425JV0</rfc>
+        </personaConsulta>
+        <existeVinculacion>1</existeVinculacion>
+        <!--Optional: -->
+        <documentos>
+            <!--Optional: -->
+            <eDocument>043613006EQH1</eDocument>
+            <!--String -->
+        </documentos>
+        <documentos>
+            <!--Optional: -->
+            <eDocument>0170200EXZDU3</eDocument>
+            <!--String -->
+        </documentos>
+        <documentos>
+            <!--Optional: -->
+            <eDocument>0170200EXZDR8</eDocument>
+            <!--String -->
+        </documentos>
+        <!--1 or more repetitions: -->
+        <informacionCove>
+            <cove>COVE2000034Z1</cove>
+            <!--Zero or more repetitions: -->
+            <pedimento>
+                <!--Optional: -->
+                <pedimento>PEDIMENTO</pedimento>
+                <!--Optional: -->
+                <patente>PATENTE</patente>
+                <!--Optional: -->
+                <aduana>020</aduana>
+            </pedimento>
+            <pedimento>
+                <!--Optional: -->
+                <pedimento>PEDIMENTOX1</pedimento>
+                <!--Optional: -->
+                <patente>PATENTEX1</patente>
+                <!--Optional: -->
+                <aduana>060</aduana>
+            </pedimento>
+            <!--1 or more repetitions: -->
+            <precioPagado>
+                <fechaPago>2020-08-10T09:00:00Z</fechaPago>
+                <total>1000.0</total>
+                <tipoPago>FORPAG.CC</tipoPago>
+                <especifique>otra forma de pago 1</especifique>
+            </precioPagado>
+            <!--1 or more repetitions: -->
+            <precioPorPagar>
+                <fechaPago>2019-09-04T13:10:58Z</fechaPago>
+                <total>595023.54</total>
+                <situacionNofechaPago>PENDIENTE DE PAGO</situacionNofechaPago>
+                <tipoPago>FORPAG.OT</tipoPago>
+                <especifique>otra forma de pago 2</especifique>
+            </precioPorPagar>
+            <precioPorPagar>
+                <fechaPago>2019-08-05T14:20:23Z</fechaPago>
+                <total>124789.29</total>
+                <situacionNofechaPago>PENDIENTE SU PAGO EN TIEMPO</situacionNofechaPago>
+                <tipoPago>FORPAG.CH</tipoPago>
+            </precioPorPagar>
+            <!--1 or more repetitions: -->
+            <compensoPago>
+                <fecha>2020-01-01T10:10:32Z</fecha>
+                <motivo>MOTIVO</motivo>
+                <prestacionMercancia>MERCANCIA</prestacionMercancia>
+                <tipoPago>FORPAG.LC</tipoPago>
+            </compensoPago>
+            <metodoValoracion>VALADU.VPV</metodoValoracion>
+            <!--1 or more repetitions: -->
+            <incrementables>
+                <tipoIncrementable>INCRE.CE</tipoIncrementable>
+                <fechaErogacion>2020-08-10T23:59:59Z</fechaErogacion>
+                <importe>100.0</importe>
+                <aCargoImportador>1</aCargoImportador>
+            </incrementables>
+            <incrementables>
+                <tipoIncrementable>INCRE.CG</tipoIncrementable>
+                <fechaErogacion>2020-01-01T09:05:10Z</fechaErogacion>
+                <importe>10000.0</importe>
+                <aCargoImportador>0</aCargoImportador>
+            </incrementables>
+            <incrementables>
+                <tipoIncrementable>INCRE.GS</tipoIncrementable>
+                <fechaErogacion>2020-02-12T10:25:40Z</fechaErogacion>
+                <importe>45100.05</importe>
+                <aCargoImportador>1</aCargoImportador>
+            </incrementables>
+            <incrementables>
+                <tipoIncrementable>INCRE.GT</tipoIncrementable>
+                <fechaErogacion>2019-03-13T11:30:45Z</fechaErogacion>
+                <importe>672100.31</importe>
+                <aCargoImportador>0</aCargoImportador>
+            </incrementables>
+            <incrementables>
+                <tipoIncrementable>INCRE.HM</tipoIncrementable>
+                <fechaErogacion>2019-06-14T12:35:50Z</fechaErogacion>
+                <importe>984100.46</importe>
+                <aCargoImportador>1</aCargoImportador>
+            </incrementables>
+            <incrementables>
+                <tipoIncrementable>INCRE.MC</tipoIncrementable>
+                <fechaErogacion>2019-05-15T13:10:22Z</fechaErogacion>
+                <importe>2564223.05</importe>
+                <aCargoImportador>0</aCargoImportador>
+            </incrementables>
+            <incrementables>
+                <tipoIncrementable>INCRE.MP</tipoIncrementable>
+                <fechaErogacion>2019-04-16T14:32:20Z</fechaErogacion>
+                <importe>9564123.48</importe>
+                <aCargoImportador>1</aCargoImportador>
+            </incrementables>
+            <incrementables>
+                <tipoIncrementable>INCRE.RD</tipoIncrementable>
+                <fechaErogacion>2019-03-17T15:41:29Z</fechaErogacion>
+                <importe>155123.09</importe>
+                <aCargoImportador>0</aCargoImportador>
+            </incrementables>
+            <incrementables>
+                <tipoIncrementable>INCRE.TI</tipoIncrementable>
+                <fechaErogacion>2019-02-18T16:01:11Z</fechaErogacion>
+                <importe>456333.07</importe>
+                <aCargoImportador>1</aCargoImportador>
+            </incrementables>
+            <incrementables>
+                <tipoIncrementable>INCRE.VC</tipoIncrementable>
+                <fechaErogacion>2019-01-19T10:14:25Z</fechaErogacion>
+                <importe>84654.16</importe>
+                <aCargoImportador>0</aCargoImportador>
+            </incrementables>
+            <!--1 or more repetitions: -->
+            <decrementables>
+                <tipoDecrementable>DECRE.GR</tipoDecrementable>
+                <fechaErogacion>2020-08-10T23:59:59Z</fechaErogacion>
+                <importe>200.0</importe>
+            </decrementables>
+            <decrementables>
+                <tipoDecrementable>DECRE.GT</tipoDecrementable>
+                <fechaErogacion>2020-07-11T10:20:21Z</fechaErogacion>
+                <importe>1200.0</importe>
+            </decrementables>
+            <decrementables>
+                <tipoDecrementable>DECRE.ID</tipoDecrementable>
+                <fechaErogacion>2020-06-12T11:45:08Z</fechaErogacion>
+                <importe>21200.2</importe>
+            </decrementables>
+            <decrementables>
+                <tipoDecrementable>DECRE.PI</tipoDecrementable>
+                <fechaErogacion>2020-05-13T12:30:23Z</fechaErogacion>
+                <importe>621200.15</importe>
+            </decrementables>
+            <decrementables>
+                <tipoDecrementable>DECRE.RC</tipoDecrementable>
+                <fechaErogacion>2020-04-14T13:19:51Z</fechaErogacion>
+                <importe>7621200.99</importe>
+            </decrementables>
+            <decrementables>
+                <tipoDecrementable>DECRE.RP</tipoDecrementable>
+                <fechaErogacion>2020-03-15T14:35:23Z</fechaErogacion>
+                <importe>9621200.55</importe>
+            </decrementables>
+        </informacionCove>
+        <informacionCove>
+            <cove>COVE12004TH16</cove>
+            <!--Zero or more repetitions: -->
+            <precioPorPagar>
+                <fechaPago>2020-08-10T23:59:59Z</fechaPago>
+                <total>28000.8</total>
+                <situacionNofechaPago>POR PAGAR</situacionNofechaPago>
+                <tipoPago>FORPAG.EF</tipoPago>
+            </precioPorPagar>
+            <!--1 or more repetitions: -->
+            <metodoValoracion>VALADU.VMS</metodoValoracion>
+            <!--1 or more repetitions: -->
+            <incrementables>
+                <tipoIncrementable>INCRE.CE</tipoIncrementable>
+                <fechaErogacion>2020-08-10T23:59:59Z</fechaErogacion>
+                <importe>6500.0</importe>
+                <aCargoImportador>1</aCargoImportador>
+            </incrementables>
+            <incrementables>
+                <tipoIncrementable>INCRE.TI</tipoIncrementable>
+                <fechaErogacion>2019-05-18T15:54:12Z</fechaErogacion>
+                <importe>56987.99</importe>
+                <aCargoImportador>0</aCargoImportador>
+            </incrementables>
+            <!--1 or more repetitions: -->
+            <decrementables>
+                <tipoDecrementable>DECRE.PI</tipoDecrementable>
+                <fechaErogacion>2020-08-10T23:59:59Z</fechaErogacion>
+                <importe>200.0</importe>
+            </decrementables>
+        </informacionCove>
+        <valorEnAduana>
+            <totalPrecioPagado>58100.51</totalPrecioPagado>
+            <totalPrecioPorPagar>952200.13</totalPrecioPorPagar>
+            <totalIncrementables>76500.35</totalIncrementables>
+            <totalDecrementables>635008.41</totalDecrementables>
+            <totalValorAduana>354100.28</totalValorAduana>
+        </valorEnAduana>
+    </datosManifestacionValor>
+</something>

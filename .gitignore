@@ -1,3 +1,4 @@
 __pychache__
 *.py@neomake*.py
 .DS_Store
+env
